@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(125, 50, 50);
+}
+.main-container{
+  background-color: rgb(245, 245, 240);
+}
+.nav-button:hover{
+  text-decoration: none;
+  background-color: rgb(255, 223, 128);
+}
+.nav-button{
+  border-radius: 0px;
+  background-color: rgba(255, 223, 128, 0.7);
+  width: 100%;
+}
+.nav-button a{
+    color: rgb(125, 50, 50);
+    text-decoration: none;
+}
+#nav-pane{
+  padding-left: 0;
+  padding-right: 0;
+}
+.button-frame{
+  padding-left: 0;
+  padding-right: 0;
+}
+.content-frame{
+  margin-top: 15px;
+  /* border: solid; */
+}
+.post-row{
+  margin-top: 10px;
+}
+.post-image{
+  width: 80%;
+}
+h2{
+  color: rgb(125, 50, 50);
+}
