@@ -27,14 +27,40 @@ body{
 }
 .content-frame{
   margin-top: 15px;
-  /* border: solid; */
 }
 .post-row{
   margin-top: 10px;
 }
 .post-image{
-  width: 80%;
+  width: 90%;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 5%;
+  padding-bottom: 2px;
+  height: 80%;
 }
 h2{
   color: rgb(125, 50, 50);
+}
+footer{
+  padding-bottom: 0;
+  padding-left: 0;
+}
+/* div{
+  border: 1px solid;
+} */
+.comm-icon{
+  padding: 2%;
+  margin: auto;
+}
+.comm-field{
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.comm-row{
+  margin-bottom: 10px;
+}
+.test{
+  height: 200px;
 }
