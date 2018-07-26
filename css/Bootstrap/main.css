@@ -64,3 +64,15 @@ footer{
 .test{
   height: 200px;
 }
+.logo-image{
+  height: 150px;
+  width: 75%;
+}
+.social-logo{
+  width: 10%;
+  margin-bottom: 5px;
+  margin-top: 30%;
+}
+.social-logo:hover{
+  border: solid;
+}
