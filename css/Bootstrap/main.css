@@ -4,26 +4,31 @@ body{
 .main-container{
   background-color: rgb(245, 245, 240);
 }
-.nav-button:hover{
+nav a:hover{
+  color: rgb(125, 50, 50);
   text-decoration: none;
   background-color: rgb(255, 223, 128);
+}
+nav{
+  border: solid;
+  background-color: rgba(255, 223, 128, 0.7);
+  width: 100%;
+}
+#heading{
+  padding: 0;
 }
 .nav-button{
   border-radius: 0px;
   background-color: rgba(255, 223, 128, 0.7);
   width: 100%;
 }
-.nav-button a{
+nav a{
     color: rgb(125, 50, 50);
     text-decoration: none;
+    margin: auto;
 }
-#nav-pane{
-  padding-left: 0;
-  padding-right: 0;
-}
-.button-frame{
-  padding-left: 0;
-  padding-right: 0;
+#menu{
+  padding; 0;
 }
 .content-frame{
   margin-top: 15px;

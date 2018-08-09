@@ -1,0 +1,27 @@
+body{
+  background: url(../../images/381538-PBR8ZZ-693.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100% !important;
+    height: 100%;
+    z-index: 0;
+}
+/* div{
+  border: 1px solid black;
+} */
+.contenedor{
+  background-color: rgb(58, 81, 142, 0.70)
+}
+.callout-alt{
+  margin-left: 0.2rem !important;
+  margin-right: 0.2rem !important;
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.2rem !important;
+  /* background-color: rgb(152, 135, 199); */
+}
+#icon{
+  margin-bottom: 0;
+}
