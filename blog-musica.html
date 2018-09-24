@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/Bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/Bootstrap/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="js/Bootstrap/bootstrap.min.js"></script>
     <title>Blog de musica</title>
   </head>
@@ -12,31 +13,35 @@
     <!-- Center main content container -->
     <div class="container main-container" id="heading">
       <!-- header row -->
-      <div class="row header-row">
-        <!-- Logo column -->
-        <div class="col-sm-12 col-md-8">
-          <img src="images/logo-music-alt.png" class="logo-image">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="row logo-row">
+            <div class="col">
+              <img src="images/logo-music-alt.png" class="logo-image">
+            </div>
+          </div>
         </div>
-        <!-- Social media column -->
-        <div class="col-sm-12 col-md-4 social-column text-center">
+        <div class="col-sm-6">
           <div class="row social-row">
-            <img src="images\facebook.png" class="social-logo rounded">
-            <img src="images\instagram.png" class="social-logo rounded">
-            <img src="images\twitter.png" class="social-logo rounded">
-            <img src="images\youtube.png" class="social-logo rounded">
-            <img src="images\pinterest.png" class="social-logo rounded">
+            <div class="col">
+              <img src="images\facebook.png" class="social-logo rounded">
+              <img src="images\instagram.png" class="social-logo rounded">
+              <img src="images\twitter.png" class="social-logo rounded">
+              <img src="images\youtube.png" class="social-logo rounded">
+              <img src="images\pinterest.png" class="social-logo rounded">
+            </div>
           </div>
         </div>
       </div>
       <!-- Navigation row -->
-      <nav class="navbar-collapse navbar navbar-expand-md text-center" id="menu">
+      <nav class="navbar navbar-expand-sm text-center">
         <ul class="navbar-nav nav-fill">
-          <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Artistas</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Grupos</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Top 10</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Letras</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Acordes</a></li>
+          <li class="nav-item"><a href="#" class="menu-link nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="#" class="menu-link nav-link">Artistas</a></li>
+          <li class="nav-item"><a href="#" class="menu-link nav-link">Grupos</a></li>
+          <li class="nav-item"><a href="#" class="menu-link nav-link">Top 10</a></li>
+          <li class="nav-item"><a href="#" class="menu-link nav-link">Letras</a></li>
+          <li class="nav-item"><a href="#" class="menu-link nav-link">Acordes</a></li>
         </ul>
       </nav>
     </div>
@@ -44,14 +49,14 @@
       <!-- Row containig posts and content sarch -->
       <div class="row content-frame">
         <!-- Left panel for content -->
-        <div class="col-lg-9 col-md-9  col-sm-12 col-xs-12">
+        <div class="col-sm-9">
           <!-- Post row -->
           <div class="row post-row">
             <!-- Text section -->
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-justify">
               <h2>Dolores O'Riordan</h2>
               <p>Dolores Mary Eileen O'Riordan (Ballybricken, Limerick, 6 de septiembre de 1971 - Londres, 15 de enero de 2018),​ conocida artísticamente como Dolores O'Riordan, fue una música, cantante y compositora irlandesa, vocalista de la banda de rock The Cranberries.
-              <br><br>Su primer álbum en solitario, Are You Listening?, salió a la venta en mayo de 2007 y fue seguido por No Baggage en 2009. O'Riordan era conocida por su voz mezzosoprano3​ y por su marcado acento de Limerick.
+              <br><br>Su primer álbum en solitario, Are You Listening?, salió a la venta en mayo de 2007 y fue seguido por No Baggage en 2009. O'Riordan era conocida por su voz mezzosoprano​ y por su marcado acento de Limerick.
               <br><br>Apareció como jueza en The Voice of Ireland de RTÉ durante la temporada 2013-14. En abril de 2014, O'Riordan se unió y comenzó a grabar nuevo material con el trío D.A.R.K.
               <br><br>O'Riordan murió inesperadamente el 15 de enero de 2018, a la edad de 46 años, mientras se encontraba en Londres, Inglaterra, para una sesión de grabación.</p>
             </div>
@@ -61,9 +66,15 @@
             </div>
           </div>
           <!-- Comment row -->
-          <div class="row comm-row ">
-            <img src="images/user.png" class="col-2 comm-icon">
-            <textarea name="comment" rows="3" placeholder="Comentario" class="col-10 d-block rounded"></textarea>
+          <div class="row comm-row">
+            <div class="text-center col-2">
+              <img src="images/user.png" class="comm-icon">
+            </div>
+            <div class="text-center text-comm col-10">
+              <div class="form-group">
+                <textarea name="comment" rows="2" placeholder="Comentar" class="form-control d-block rounded"></textarea>
+              </div>
+            </div>
           </div>
           <!-- Post row -->
           <div class="row post-row">
@@ -79,9 +90,15 @@
             </div>
           </div>
           <!-- Comment row -->
-          <div class="row comm-row ">
-            <img src="images/user.png" class="col-2 comm-icon">
-            <textarea name="comment" rows="3" placeholder="Comentario" class="col-10 d-block rounded"></textarea>
+          <div class="row comm-row">
+            <div class="text-center col-2">
+              <img src="images/user.png" class="comm-icon">
+            </div>
+            <div class="text-center text-comm col-10">
+              <div class="form-group">
+                <textarea name="comment" rows="2" placeholder="Comentar" class="form-control d-block rounded"></textarea>
+              </div>
+            </div>
           </div>
           <div class="row post-row">
             <!-- Text section -->
@@ -97,14 +114,33 @@
             </div>
           </div>
           <!-- Comment row -->
-          <div class="row comm-row ">
-            <img src="images/user.png" class="col-2 comm-icon">
-            <textarea name="comment" rows="3" placeholder="Comentario" class="col-10 d-block rounded"></textarea>
+          <div class="row comm-row">
+            <div class="text-center col-2">
+              <img src="images/user.png" class="comm-icon">
+            </div>
+            <div class="text-center text-comm col-10">
+              <div class="form-group">
+                <textarea name="comment" rows="2" placeholder="Comentar" class="form-control d-block rounded"></textarea>
+              </div>
+            </div>
           </div>
         </div>
         <!-- Right panel for search -->
-        <div class="col-lg-3 col-md3 col-sm-3 d-none d-md-block d-lg-block">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="col-sm-3 search-panel">
+          <nav class="navbar navbar-light bg-light" id="search-field">
+            <form class="form-inline">
+              <button class="btn d-inline" type="submit"><i class="fas fa-search"></i></button>
+              <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+            </form>
+            <ul class="navbar-nav text-center">
+              <li class="nav-item"><a href="#"class="nav-link">objeto 1</a></li>
+              <li class="nav-item"><a href="#"class="nav-link">objeto 2</a></li>
+              <li class="nav-item"><a href="#"class="nav-link">objeto 3</a></li>
+              <li class="nav-item"><a href="#"class="nav-link">objeto 4</a></li>
+              <li class="nav-item"><a href="#"class="nav-link">objeto 5</a></li>
+              <li class="nav-item"><a href="#"class="nav-link">objeto 6</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>

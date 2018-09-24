@@ -25,3 +25,12 @@ body{
 #icon{
   margin-bottom: 0;
 }
+.post-img{
+  width: 100%;
+}
+/* .recipe-show{
+  display: none;
+}
+.shown{
+  display: block;
+} */

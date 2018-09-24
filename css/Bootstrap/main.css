@@ -4,31 +4,25 @@ body{
 .main-container{
   background-color: rgb(245, 245, 240);
 }
-nav a:hover{
+.menu-link:hover{
   color: rgb(125, 50, 50);
   text-decoration: none;
   background-color: rgb(255, 223, 128);
 }
 nav{
-  border: solid;
   background-color: rgba(255, 223, 128, 0.7);
+}
+
+nav ul{
   width: 100%;
 }
 #heading{
   padding: 0;
 }
-.nav-button{
-  border-radius: 0px;
-  background-color: rgba(255, 223, 128, 0.7);
-  width: 100%;
-}
 nav a{
     color: rgb(125, 50, 50);
     text-decoration: none;
     margin: auto;
-}
-#menu{
-  padding; 0;
 }
 .content-frame{
   margin-top: 15px;
@@ -50,45 +44,60 @@ footer{
   padding-bottom: 0;
   padding-left: 0;
 }
-/* div{
-  border: 1px solid;
-} */
 .comm-icon{
-  padding: 2%;
-  margin: auto;
-}
-.comm-field{
-  padding-left: 0;
-  padding-right: 0;
-  width: 100%;
+  padding: 1%;
+  margin: 0;
 }
 .comm-row{
   margin-bottom: 10px;
-}
-.test{
-  height: 200px;
+  padding-bottom: 10px;
 }
 .logo-image{
   height: 150px;
-  width: 75%;
+  margin-bottom: 50px;
 }
 .social-logo{
   width: 32px;
   height: 32px;
-  margin-bottom: 5%;
+  margin-bottom: 20px;
 }
 .social-logo:hover{
   border: solid;
 }
-.social-column{
-  display: flex;
-  align-items: flex-end;
+
+@media screen and (max-width: 767.98px){
+  .social-row{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .logo-row{
+    text-align: center;
+  }
+  .search-panel{
+    display: none;
+  }
 }
-.social-row{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+
+@media screen and (min-width: 768px){
+  .social-row{
+    text-align: right;
+    padding-right: 2%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .logo-row{
+    padding-left: 2%;
+  }
 }
+
 .header-row{
   height: 200px;
+}
+
+#search-field{
+  padding-left: 0;
+  padding-right: 0;
 }
