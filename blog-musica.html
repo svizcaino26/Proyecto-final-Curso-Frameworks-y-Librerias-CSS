@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <link rel="stylesheet" href="css/Bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/Bootstrap/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -127,20 +128,30 @@
         </div>
         <!-- Right panel for search -->
         <div class="col-sm-3 search-panel">
-          <nav class="navbar navbar-light bg-light" id="search-field">
-            <form class="form-inline">
-              <button class="btn d-inline" type="submit"><i class="fas fa-search"></i></button>
-              <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
-            </form>
-            <ul class="navbar-nav text-center">
-              <li class="nav-item"><a href="#"class="nav-link">objeto 1</a></li>
-              <li class="nav-item"><a href="#"class="nav-link">objeto 2</a></li>
-              <li class="nav-item"><a href="#"class="nav-link">objeto 3</a></li>
-              <li class="nav-item"><a href="#"class="nav-link">objeto 4</a></li>
-              <li class="nav-item"><a href="#"class="nav-link">objeto 5</a></li>
-              <li class="nav-item"><a href="#"class="nav-link">objeto 6</a></li>
-            </ul>
-          </nav>
+          <div class="row nowrap">
+            <div class="col">
+              <nav class="navbar navbar-light bg-light" id="search-field">
+                <form class="form-inline">
+                  <button class="btn d-inline" type="submit"><i class="fas fa-search"></i></button>
+                  <input class="form-control d-inline" type="search" placeholder="Buscar" aria-label="Search">
+                </form>
+              </nav>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col">
+              <nav class="navbar navbar-collapse navbar-light bg-light">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a href="#"class="nav-link">objeto 1</a></li>
+                  <li class="nav-item"><a href="#"class="nav-link">objeto 2</a></li>
+                  <li class="nav-item"><a href="#"class="nav-link">objeto 3</a></li>
+                  <li class="nav-item"><a href="#"class="nav-link">objeto 4</a></li>
+                  <li class="nav-item"><a href="#"class="nav-link">objeto 5</a></li>
+                  <li class="nav-item"><a href="#"class="nav-link">objeto 6</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
     </div>
