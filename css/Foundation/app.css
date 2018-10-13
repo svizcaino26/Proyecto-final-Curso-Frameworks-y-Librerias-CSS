@@ -13,7 +13,7 @@ body{
   border: 1px solid black;
 } */
 .contenedor{
-  background-color: rgb(58, 81, 142, 0.70);
+  background-color: rgba(58, 81, 142, 0.70);
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -28,15 +28,18 @@ body{
   margin-bottom: 0.2rem !important;
   /* background-color: rgb(152, 135, 199); */
 }
-#icon{
-  margin-bottom: 0;
-}
 .post-img{
   width: 100%;
 }
-/* .recipe-show{
+.recipe{
   display: none;
 }
-.shown{
-  display: block;
-} */
+.avatar{
+  width: 100%;
+}
+.left-side{
+  width: 15%
+}
+.right-side{
+  width: 85%;
+}
